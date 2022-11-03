@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "VSC is good to test APIs", 
+    "important": true
+}
+
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "e", 
+    "important": true
+}

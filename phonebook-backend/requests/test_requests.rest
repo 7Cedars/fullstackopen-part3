@@ -1,0 +1,39 @@
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/info
+
+###
+GET http://localhost:3001/api/persons/2
+
+###
+GET http://localhost:3001/api/persons/9999
+
+###
+DELETE http://localhost:3001/api/persons/1
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "7Cedars",
+    "number": "555-9872"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "7Cedars"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Ada Lovelace",
+    "number": "555-95872"
+}

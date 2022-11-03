@@ -1,0 +1,72 @@
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/info
+
+###
+GET http://localhost:3001/api/persons/63623c608ab0e451ced2a9ab
+
+###
+GET http://localhost:3001/api/persons/9999
+
+###
+DELETE http://localhost:3001/api/persons/666
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "7Cedars",
+    "number": "555-9872"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "7Cedars"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "7"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "testing",
+    "number": "12-4455555555555555555"
+    
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Ada Lovelace",
+    "number": "555-95872"
+}
+
+###
+DELETE http://localhost:3001/api/persons/63626981b638a3c02468f23c
+
+###
+DELETE http://localhost:3001/api/persons/63626981b638a3c02468f23e
+
+###
+PUT http://localhost:3001/api/persons/63623c608ab0e451ced2a9ab
+content-type: application/json
+
+{
+    "name": "Jane Doe",
+    "number": "55"
+}
